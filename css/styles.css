@@ -1,0 +1,35 @@
+.card{
+    background-image: url(../images/pizza2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-attachment: fixed;
+}
+h1{
+    color:#B9770E;
+    text-align: center; 
+}
+#border{
+    border-radius: 50%;
+    background-color: transparent;
+}
+.submit{
+color:#B9770E;
+background-color: transparent; 
+}
+.toppings{
+    color: #B9770E;
+    background-color: transparent;
+   }
+   #number{
+       color:#B9770E;
+       background-color: transparent;
+   }
+  ::placeholder{
+      color: #B9770E;
+
+  }
+  #pizza{
+      color: #B9770E;
+      background-color: transparent;
+  }
