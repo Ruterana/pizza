@@ -1,13 +1,16 @@
-.card{
+
+body{
     background-image: url(../images/pizza2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
     background-attachment: fixed;
+    
 }
 h1{
     color:#B9770E;
-    text-align: center; 
+    text-align: center;
+    text-shadow: 3px 3px 6px;
 }
 #border{
     border-radius: 50%;
@@ -17,7 +20,7 @@ h1{
 color:#B9770E;
 background-color: transparent; 
 }
-.toppings{
+.form-control{
     color: #B9770E;
     background-color: transparent;
    }
@@ -29,7 +32,55 @@ background-color: transparent;
       color: #B9770E;
 
   }
-  #pizza{
-      color: #B9770E;
-      background-color: transparent;
+  
+  h2{
+      color: white;
+      text-shadow: 2px 2px 5px;
   }
+  h1{
+      color: #B9770E;
+      text-shadow: 2px 2px 5px;
+  }
+  #deli{
+      color:#B9770E;
+      background-color: #B9770E;
+  }
+  .delived{
+      text-align: center;
+      color: blue;
+      background-color: #B9770E;
+      /* padding-left 150px; */
+      border-bottom-left-radius:100px;  
+      display: none;
+  }
+  
+  .addmore{
+    background-color: #B9770E;
+      border-bottom-left-radius: 80px;
+      color: blue;  
+  }
+  .sendOrder{
+    text-align: center;
+      color: blue;
+      background-color: #B9770E;
+      padding: left 150px;
+      border-bottom-left-radius:100px;    
+  }
+  .checkout{
+    color: blue;
+    background-color: #B9770E;
+    padding:left 150px;
+        
+  }
+  p{
+      color:#B9770E;
+      font-size: 18px;
+  }
+  .border{
+     box-shadow: 0 4px 8px 0 #B9770E,0 6px 20px 0 #B9770E;
+  }
+  .card{
+      background-color: rgba(0, 0, 0, 0.3);
+      display: none;
+  }
+  
