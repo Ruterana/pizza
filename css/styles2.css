@@ -7,36 +7,6 @@ body{
     background-attachment: fixed;
     
 }
-.topnav {
-    overflow: hidden;
-    background-color:rgba(0, 0, 0, 0.3);
-  }
-  
-  /*navigation styling*/
-.topnav a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    text-transform: uppercase;
-  }
-  /* Change the color of links on hover */
-.topnav a:hover {
-    background-color:#B9770E;
-    color: rgb(201, 179, 179);
-  }
-  
-  /* Add a color to the active/current link */
-.topnav a.active {
-    background-color: none;
-    color: white;
-  }
-
-.topnav-right{
-      float: left;
-  }
 h1{
     color:#B9770E;
     text-align: center;
@@ -112,9 +82,5 @@ background-color: transparent;
   .card{
       background-color: rgba(0, 0, 0, 0.3);
       display: none;
-  }
-  footer{
-     background: rgba(0, 0, 0, 0.3) ;
-     margin-top:80px; 
   }
   
