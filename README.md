@@ -5,12 +5,12 @@ This is pizza madness designed for helping people to order pizza  where the cust
 and also we make delivery for them if they want for the affordable price.
 
 ### BDD
-* Choose the size of pizza you want e.g Small, Medium, Large
-* Choose what kind of crust you would like the pizza to have .
-* send order for Pizza and see the total charge for it.
-* Have an option to have the pizza delivered or not.  If delivered I want to be alerted how much the delivery charge will be.
-* If I want my pizza to be delivered, I want to be prompted to enter where the delivery should be made and an alert saying '' your order will be delivered to your location"
-* See a checkout button that when clicked shows the total amount charged for the orders.
+*   customers Choose the size of pizza  want e.g Small, Medium, Large
+*   customers  kind of crust you would like the pizza to have .
+*   customer send order for Pizza and see the total charge for it.
+*   customers decide if we make  delivered or not.  If  they don't choose to be delivered  alerted  message displayed thank you shoping with     pizza madness.
+*   If customers choose  to be delivered,  prompted  message displayed that ask customer to enter their location after that alert message        displayed saying '' your order will be delivered at your location"
+*   customer See a checkout button that when clicked shows the total amount charged for the orders.
 
 ## Author's information
 my name is Niyitanga charlene,Am the on who developed pizzamadness apps.also am a student in moringa school.to know more contact me throught my email:ncharlene38@gmail.com.<br>this apps on 2.08.2019.
