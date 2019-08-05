@@ -16,45 +16,7 @@ var delivcost=300
 Pizza.prototype.piza2=function(){
   return this.piza1()+ delivcost;
 }
-// this.price=0;
-// this.price=price;
-//Pizza.prototype.totalCost=function(){
-//   if (this.size==='small'){
-//     this.price +=700;
 
-//   }
-//   else if(this.size==='medium'){
-//     this.price +=1000;
-//   }
-//   else if(this.size==='large'){
-//     this.price +=2000;
-//   }
-//   if (this.crust==='crispy'){
-//     this.price +=300;
-//   }
-//   else if(this.crust==='stuffed'){
-//     this.price +=500;
-//   }
-//   else if (this.crust==='gluten-free'){
-//     this.price +=700;
-//   }
-//   if(this.toppings==='extra cheese'){
-//     this.price +=400;
-//   }
-// else if(this.toppings===='peperoni'){
-//   this.price +=600;
-//   }
-//  else if(this.toppings==='mushroom'){
-//    this.price +=800;
-//  }
-
-// }
-//  Pizza.prototype.fullPizzaCost=function(){
-//    var pizzaCrust = size+crust+toppings;
-//    this.price +=pizzaCrust;
-//    return pizzaCrust;
-//  }
-//user interface
 $(document).ready(function () {
   $(".addmore").click(function () {
     $("#border").append('<div class="col-md-4" id="border">' +
@@ -101,13 +63,7 @@ $(document).ready(function () {
     var newPizzaSize = new Pizza(inputPizzasize, inputCrust, inputToppings, sizePrice, crustPrice, toppingsPrice);
     
 
-  //  console.log(newPizzaSize.sizePriceS +'/'+newPizzaSize.crustPriceS+'/'+newPizzaSize.toppingsPriceS)
-    //  var size=$('select#select1').val();
-    //  var crust=$('select #select2').val();
-    //  var toppings=$('select #select3').value(); 
-    //  var finalprice=(size +" "+ crust +" "+ toppings );
-    //  var newOrder=new Pizza(size,crust,toppings);
-    // newOrder.totalCost();
+  
 
     $('.card').show();
     $('#one').text(newPizzaSize.size);
@@ -116,8 +72,7 @@ $(document).ready(function () {
     $('#four').text(newPizzaSize.piza1());
     $('.total').text(newPizzaSize.piza2());
     $('.deliv').text('300');
-    // $('#five').number(newPizzaSize.price);
-    // $('.delived').hide();
+    
     $('.checkout').click(function () {
 
       $('.delived').show();
@@ -126,9 +81,7 @@ $(document).ready(function () {
       $('.delived').click(function () {
         var delived = prompt('enter your location: ');
         alert('your order will be delived at ' + delived);
-        // conconsole.log('sizePrice');
-        // console.log('crustPrice');
-        // console.log('inputToppings');
+        
         $('#deliv').show();
         $('#total').show();
       })
