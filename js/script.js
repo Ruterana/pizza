@@ -6,15 +6,13 @@ function Pizza(size, crust, toppings, sizePrice, crustPrice, toppingsPrice) {
   this.sizePriceS = sizePrice;
   this.crustPriceS = crustPrice;
   this.toppingsPriceS = toppingsPrice;
-
-
 }
 Pizza.prototype.piza1 = function () {
   return this.sizePriceS + this.crustPriceS + this.toppingsPriceS;
 }
-var delivcost=300
-Pizza.prototype.piza2=function(){
-  return this.piza1()+ delivcost;
+var delivcost = 300
+Pizza.prototype.piza2 = function () {
+  return this.piza1() + delivcost;
 }
 
 $(document).ready(function () {
@@ -56,15 +54,11 @@ $(document).ready(function () {
     var inputPizzasize = $('#select1 option:selected').text();
     var inputCrust = $('#select2 option:selected').text();
     var inputToppings = $('#select3 option:selected').text();
-    var sizePrice = parseInt( $('#select1 option:selected').val());
+    var sizePrice = parseInt($('#select1 option:selected').val());
     var crustPrice = parseInt($('#select2 option:selected').val());
-    
-    var toppingsPrice = parseInt( $('#select3 option:selected').val());
+
+    var toppingsPrice = parseInt($('#select3 option:selected').val());
     var newPizzaSize = new Pizza(inputPizzasize, inputCrust, inputToppings, sizePrice, crustPrice, toppingsPrice);
-    
-
-  
-
     $('.card').show();
     $('#one').text(newPizzaSize.size);
     $('#two').text(newPizzaSize.crust);
@@ -72,7 +66,7 @@ $(document).ready(function () {
     $('#four').text(newPizzaSize.piza1());
     $('.total').text(newPizzaSize.piza2());
     $('.deliv').text('300');
-    
+
     $('.checkout').click(function () {
 
       $('.delived').show();
@@ -81,7 +75,7 @@ $(document).ready(function () {
       $('.delived').click(function () {
         var delived = prompt('enter your location: ');
         alert('your order will be delived at ' + delived);
-        
+
         $('#deliv').show();
         $('#total').show();
       })

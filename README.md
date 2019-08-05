@@ -6,7 +6,7 @@ and also we make delivery for them if they want for the affordable price.
 
 ### BDD
 *   customers Choose the size of pizza  want e.g Small, Medium, Large
-*   customers  kind of crust you would like the pizza to have .
+*   customers  choose  kind of crust you would like the pizza to have .
 *   customer send order for Pizza and see the total charge for it.
 *   customers decide if we make  delivered or not.  If  they don't choose to be delivered  alerted  message displayed thank you shoping with     pizza madness.
 *   If customers choose  to be delivered,  prompted  message displayed that ask customer to enter their location after that alert message        displayed saying '' your order will be delivered at your location"
