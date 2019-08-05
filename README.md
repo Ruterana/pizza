@@ -1,7 +1,7 @@
 # project name.
 PIZZA MADNESS
 #### Project description.
-This is pizza madness designed for helping people to order application where the customers order different sizes of pizzas with crust and toppings.  
+This is pizza madness designed for helping people to order pizza  where the customers order different sizes of pizzas with crust and toppings.  
 and also we make delivery for them if they want for the affordable price.
 
 ### BDD
