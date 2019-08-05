@@ -22,10 +22,7 @@ h1{
     color: #B9770E;
     background-color: transparent;
    }
-   #number{
-       color:#B9770E;
-       background-color: transparent;
-   }
+   
   ::placeholder{
       color: #B9770E;
 
