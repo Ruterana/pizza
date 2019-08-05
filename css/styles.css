@@ -7,36 +7,7 @@ body{
     background-attachment: fixed;
     
 }
-.topnav {
-    overflow: hidden;
-    background-color:rgba(0, 0, 0, 0.3);
-  }
-  
-  /*navigation styling*/
-.topnav a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    text-transform: uppercase;
-  }
-  /* Change the color of links on hover */
-.topnav a:hover {
-    background-color:#B9770E;
-    color: rgb(201, 179, 179);
-  }
-  
-  /* Add a color to the active/current link */
-.topnav a.active {
-    background-color: none;
-    color: white;
-  }
 
-.topnav-right{
-      float: left;
-  }
 h1{
     color:#B9770E;
     text-align: center;
@@ -46,10 +17,7 @@ h1{
     border-radius: 50%;
     background-color: transparent;
 }
-.submit{
-color:#B9770E;
-background-color: transparent; 
-}
+
 .form-control{
     color: #B9770E;
     background-color: transparent;
@@ -83,6 +51,14 @@ background-color: transparent;
       border-bottom-left-radius:100px;  
       display: none;
   }
+  .pickup{
+    text-align: center;
+    color: blue;
+    background-color: #B9770E;
+    /* padding-left 150px; */
+    border-bottom-left-radius:100px;  
+    display: none;
+}
   
   .addmore{
     background-color: #B9770E;
@@ -120,5 +96,24 @@ background-color: transparent;
   }
   img{
       margin-right: 150px;
+  }
+  .aboutus{
+    background-color: rgba(0, 0, 0, 0.3) ;
+   margin-top: 150px;
+    
+  }
+  .slog{
+    background-color: rgba(0, 0, 0, 0.3) ; 
+    
+  }
+  .aboutmenu{
+    background-color: rgba(0, 0, 0, 0.3) ; 
+    margin-top: 150px;
+  }
+  h3{
+      color:green;
+  }
+  .pickup{
+      background-color: #B9770E;
   }
   
